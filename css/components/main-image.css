@@ -1,0 +1,22 @@
+.main-image{
+	background-image: url(../../Images/banner.jpg);
+	color: white;
+	padding: 270px 0px; 
+	margin-bottom: -50px;
+	margin-top: 200px;
+  	background-size: cover;
+  	background-position: center;
+  	text-align: center;
+}
+
+
+@media (max-width: 1000px){
+	.main-image{
+	background-image: url(../../Images/banner2.jpg);
+	color: white;
+	padding: 270px 0px; 
+  	background-size: cover;
+ 	background-position: center;
+ 	text-align: center;
+
+}

@@ -1,0 +1,218 @@
+
+#contact {
+  width: 100%;
+  height: 360px;
+  background-color: #EAEAE8 ;
+  box-shadow: inset 0px 7px 10px rgba(0,0,0,0.3);
+}
+
+.main{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer {
+	padding: 10px 0;
+	margin-left: 90px;
+}
+
+.col {
+	width: 30%;
+}
+
+.col li {
+	font-size: 16px;
+}
+
+.col h4 {
+	font-size: 1.2em;
+	font-family: 'Advent Pro', sans-serif;
+	margin-bottom: 25px;
+	margin-top: 40px;
+	position: relative;
+}
+
+.col h4::before {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 50px;
+	left: 0;
+	bottom: -8px;
+	background-color: #E1712D;
+}
+
+.col ul li:not(last-child) {
+	margin-bottom: 15px;
+	list-style-type: none;
+}
+
+.col ul li a{
+	color: black;
+	font-size: 1.1em;
+	display: block;
+	text-transform: capitalize;
+	transition: .4s;
+}
+
+.col ul li a:hover {
+	transform: translateX(-12px);
+	color: grey;
+}
+
+.social {
+	display: list-item block;
+	font-size: 25px;
+}
+
+.instagram-logo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.instagram-logo:hover{
+	transform: scale(1.1);
+}
+
+
+.instagram-btn {
+	background-color: #E1712D;
+	height:42px;
+	width: 42px;
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+	border-radius: 50%;
+	transition: .4s;
+}
+
+.instagram-logo p{
+	margin: 8Px;
+	font-size: 18px;
+	display: inline-flex;
+}
+
+.social i {
+	color: white;
+	font-weight: bold;
+}
+
+.tiktok-logo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.tiktok-logo:hover{
+	transform: scale(1.1);
+}
+
+.tiktok-btn {
+	background-color: #E1712D;
+	height:42px;
+	width: 42px;
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+	border-radius: 50%;
+	transition: .4s;
+}
+
+.tiktok-logo p{
+	margin: 8Px;
+	font-size: 18px;
+	display: inline-flex;
+}
+
+
+.mail-logo {
+	display: flex;
+	align-items: center;
+}
+
+.mail-btn {
+	background-color: #E1712D;
+	height:42px;
+	width: 42px;
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+	border-radius: 50%;
+	transition: .4s;
+}
+
+.mail-logo p{
+	margin: 8Px;
+	margin-left: 20px;
+	font-size: 18px;
+	display: inline-flex;
+}
+
+.social a {
+	color: black;
+}
+
+#signature{
+	width: 130px;
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 45%;
+}
+
+
+@media (max-width: 1200px){
+
+	#contact {
+  width: 100%;
+  height: 900px;
+}
+
+	.footer{
+		height: 800px;
+	}	
+
+	.col{
+		width: 100%;
+	}
+
+	.main{
+	display: block;
+}
+
+.col li {
+	font-size: 21px;
+}
+
+.col h4 {
+	font-size: 1.6em;
+}
+
+.instagram-btn {
+	height:70px;
+	width: 70px;
+}
+.tiktok-btn {
+	height:70px;
+	width: 70px;
+}
+.mail-btn {
+	height:70px;
+	width: 70px;
+}
+
+.instagram-logo p{
+	font-size: 24px;
+}
+.tiktok-logo p{
+	font-size: 24px;
+}
+.mail-logo p{
+	font-size: 24px;
+}
+
+.social {
+	display: list-item block;
+	font-size: 35px;
+}
+}

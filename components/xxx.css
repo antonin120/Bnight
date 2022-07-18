@@ -1,0 +1,144 @@
+.xxx {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.yyy{
+    flex-direction: column;
+    z-index: 2;
+}
+
+.xyx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#insta {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  z-index: 2;
+}
+
+.buttoninsta {
+  display: block;
+  background-color: #FFFF;
+  padding: 10px 15px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  transition: background-color 0.5s ease;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+  color: black;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+}
+
+.buttoninsta:hover{
+  text-decoration: none;
+  background-color: #BD9DA5;
+}
+
+.xxx h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  z-index: 2;
+  margin-top: 20px;
+}
+
+.xxx span {
+  position: absolute;
+  top: 0;
+  width: 480px;
+  height: 65px;
+  display: block;
+  background: #000;
+  border-radius: 50%;
+  transform-origin: 240px 110px;
+  transform: rotate(calc(90deg * var(--i)));
+  filter: blur(80px);
+  opacity: 0.95;
+
+}
+
+.xxx span:nth-child(1)
+{
+  background: #997DCF ;
+}
+
+.xxx span:nth-child(2)
+{
+  background: #CB3486 ;
+}
+
+.xxx span:nth-child(3)
+{
+  background: #EB5E49 ;
+}
+
+.xxx span:nth-child(4)
+{
+  background: #FBAD51 ;
+}
+
+.xxx .glass {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background: rgba(225,225,225,0.5);
+  border-radius: 28px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+@media (max-width: 1200px){
+  .xxx .glass {
+  width: 500px;
+  height: 400px;
+  }
+
+  .xxx span {
+    width: 590px;
+  height: 70px;
+  transform-origin: 300px 110px;
+  transform: rotate(calc(90deg * var(--i)));
+  }
+
+  .xxx h3{
+    font-size: 29px;
+  }
+
+  .buttoninsta {
+    font-size: 26px;
+      border-radius: 27px;
+      height: 60px;
+      padding: 14px 15px;
+        letter-spacing: 0.4px;
+  }
+
+  .xxx{
+    margin-bottom: 190px;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+

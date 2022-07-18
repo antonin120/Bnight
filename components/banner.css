@@ -1,0 +1,53 @@
+.banner {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8), rgba(0,0,0,0.2) 50%), url(../../Images/background.jpg);
+  color: white;
+  padding: 105px 0px; 
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  font-size: 40px;
+  margin-left: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner h3 {
+  margin-left: 15px;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.texte {
+  width: 500px;
+  margin: 80px auto;
+}
+
+@media (max-width: 1000px){
+  .banner {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8), rgba(0,0,0,0.2) 50%), url(../../Images/background.jpg);
+  color: white;
+  padding: 105px 0px; 
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 60%);
+  height: 750px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner h3 {
+  margin-left: 10px;
+  font-size: 31px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.texte {
+  width: 700px;
+  margin-top: 200px;
+}
+
