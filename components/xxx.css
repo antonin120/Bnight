@@ -59,17 +59,15 @@
 
 .xxx span {
   position: absolute;
-  top: 0;
-  width: 480px;
-  height: 65px;
-  display: block;
-  background: #000;
-  border-radius: 50%;
-  transform-origin: 240px 110px;
+  top: 20px;
+  width: 440px;
+  height: 50px;
+  background: #000000;
+  border-radius: 80%;
+  transform-origin: 235px 95px; 
   transform: rotate(calc(90deg * var(--i)));
-  filter: blur(80px);
-  opacity: 0.95;
-
+  filter: blur(65px);
+  opacity: 0.99;
 }
 
 .xxx span:nth-child(1)
@@ -109,10 +107,11 @@
   }
 
   .xxx span {
-    width: 590px;
-  height: 70px;
-  transform-origin: 300px 110px;
+    width: 580px;
+  height: 100px;
+  transform-origin: 295px 115px;
   transform: rotate(calc(90deg * var(--i)));
+  filter: blur(100px);
   }
 
   .xxx h3{

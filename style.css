@@ -169,7 +169,7 @@
 
 #imageproduits {
   width: 290px;
-  height: 85px;
+  height: 127px;
   text-align: center;
   display: flex;
   margin: auto;
@@ -414,5 +414,20 @@ html {
   display: flex;
   margin-top: 40px;
 }
+
+#imageproduits {
+   width: 360px;
+  height: 165px;
+}
+
+#description {
+  width: 360px;
+  height: 200px;
+
+}
+
+#infos {
+  width: 360px;
+  height: 215px;}
 
 }
